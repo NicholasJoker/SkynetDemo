@@ -1,0 +1,10 @@
+syntax="proto3";
+
+package lprotobuf;
+
+option go_package = "../lua_protobuf";
+message LoginData
+{
+  string userName = 1;
+  string password = 2;
+}
