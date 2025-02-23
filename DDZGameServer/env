@@ -1,0 +1,18 @@
+# root will be change skyserver node execute directory
+#root = "./example"
+
+host = ddz
+
+[lua]
+path = ./?.lua;
+stack = 1024
+argument = 10
+main = main.lua
+
+
+
+[db]
+addr = 192.168.1.160:3306
+user = root
+passwd = 123456
+database = heavenms
